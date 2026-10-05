@@ -15,11 +15,16 @@ Every number in this README is generated from files in `results/` by `scripts/bu
 
 ## Screenshots
 
-> Placeholders: add your own images in `docs/` and link them here.
+**Match Overview**: score, xG timeline and shot map (2022 World Cup final).
 
-| Match overview | Pass network | xG calculator | Tracking |
-|---|---|---|---|
-| `docs/match_overview.png` | `docs/pass_network.png` | `docs/xg_calculator.png` | `docs/tracking.png` |
+![Match Overview page](docs/match_overview.png)
+
+**Team Analysis**: pass network and the key-player table.
+
+![Team Analysis page](docs/team_analysis.png)
+
+(The dashboard also has Player Analysis, xG Model, Tracking and Video pages. The Video page
+plays a broadcast clip, so it is not shown here and the clip is not part of this repository.)
 
 ## Quick start
 
@@ -79,9 +84,12 @@ REPORT_NOTES.md        design decisions, metric explanations, viva questions
 - **Event data: StatsBomb Open Data** (https://github.com/statsbomb/open-data). StatsBomb asks
   that anyone who publishes, shares or distributes research, analysis or insights based on the
   data **states the source as StatsBomb and uses their logo**. The dashboard shows a source
-  line on every page and displays the logo if you add it as `app/assets/statsbomb_logo.png`
-  (take it from StatsBomb's Media Pack; it is deliberately not bundled here). The full
-  agreement is in the repository's `LICENSE.pdf`; read it before publishing.
+  line and the logo on every page (file: `app/assets/statsbomb_logo.png`). The full
+  agreement is in the repository's `LICENSE.pdf`; read it before reuse.
+
+  <img src="app/assets/statsbomb_logo.png" alt="StatsBomb logo" width="220">
+
+  Data provided by StatsBomb (https://github.com/statsbomb/open-data).
 - **Tracking data: Metrica Sports sample data**
   (https://github.com/metrica-sports/sample-data). The repository has no formal licence; it
   asks users to be responsible and to **acknowledge the source** for anything public. Sample
