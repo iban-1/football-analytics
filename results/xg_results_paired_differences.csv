@@ -1,0 +1,6 @@
+model,mean_diff_vs_logreg_all,std_diff,folds_better_than_logreg_all
+constant_rate,0.0443,0.0127,0
+logreg_distance,0.0174,0.0065,0
+lightgbm,0.0008,0.0037,2
+mlp,0.001,0.0033,3
+statsbomb_xg (benchmark),-0.0136,0.0036,5

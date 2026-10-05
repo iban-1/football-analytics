@@ -1,0 +1,6 @@
+# Optional Phase 7 (video) packages. Install after requirements.txt:
+#   pip install -r requirements-video.txt
+# ultralytics pulls in PyTorch (large). Ultralytics is licensed AGPL-3.0.
+ultralytics>=8.3
+opencv-python>=4.9
+lap>=0.5.12   # needed by the ByteTrack/BoT-SORT trackers; Ultralytics installs it on first use

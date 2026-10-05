@@ -1,0 +1,16 @@
+# Exact top-level versions used for every result in this repo (Python 3.13.2, Windows 11).
+# Install with:  pip install -r requirements-lock.txt   (needs Python >= 3.11 because of pandas 3)
+joblib==1.6.0
+lightgbm==4.7.0
+matplotlib==3.11.2
+mplsoccer==1.8.1
+networkx==3.7
+numpy==2.5.3
+pandas==3.0.6
+pytest==9.1.1
+PyYAML==6.0.3
+scikit-learn==1.9.1
+scipy==1.18.1
+shap==0.52.0
+statsbombpy==1.22.0
+streamlit==1.65.0

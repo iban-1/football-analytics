@@ -1,0 +1,46 @@
+{
+  "video": {
+    "frames": 3188,
+    "fps": 25.0,
+    "width": 1280,
+    "height": 720
+  },
+  "shots_total": 33,
+  "shots_wide": 12,
+  "wide_seconds": 61.800000000000004,
+  "tracker_chosen": "botsort.yaml",
+  "team_counts_tracks": {
+    "light": 118,
+    "other": 110,
+    "dark": 109
+  },
+  "kit_lab_centres": {
+    "light": [
+      191.68461538461534,
+      120.3,
+      127.75961538461539
+    ],
+    "dark": [
+      83.33582089552235,
+      133.19216417910448,
+      125.90671641791045
+    ]
+  },
+  "landmark_fit_residual_m": {
+    "mean": 0.067,
+    "max": 0.148,
+    "n": 8
+  },
+  "mapped_window": {
+    "first_frame": 1521,
+    "last_frame": 1721,
+    "seconds": 8.04,
+    "share_of_shot": 1.0,
+    "min_alignment_threshold": 3.0,
+    "alignment_at_reference": 17.05
+  },
+  "motion": {
+    "tracks": 8,
+    "implausible_speed_tracks": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "model": "logreg_all",
+  "features": [
+    "distance",
+    "angle",
+    "first_time",
+    "follows_through_ball",
+    "follows_cross",
+    "under_pressure",
+    "minute",
+    "score_diff",
+    "body_part",
+    "shot_type",
+    "play_pattern"
+  ],
+  "params": {
+    "clf__C": 0.1
+  },
+  "seed": 42,
+  "trained_on_shots": 6347,
+  "note": "fit on all shots; performance numbers come from nested CV, not this fit"
+}

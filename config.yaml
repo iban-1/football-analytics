@@ -1,0 +1,51 @@
+seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  results: results
+
+statsbomb:
+  # Men's international tournaments: full event data for every match, one
+  # consistent population (unlike club data, which is mostly one team).
+  competitions:
+    - {competition_id: 43, season_id: 3,   name: "FIFA World Cup 2018"}
+    - {competition_id: 43, season_id: 106, name: "FIFA World Cup 2022"}
+    - {competition_id: 55, season_id: 43,  name: "UEFA Euro 2020"}
+    - {competition_id: 55, season_id: 282, name: "UEFA Euro 2024"}
+    - {competition_id: 223, season_id: 282, name: "Copa America 2024"}
+
+demo:
+  match_id: 3869685   # FIFA World Cup 2022 final, Argentina v France
+
+video:
+  # Phase 7 (optional). The clip is the user's own copy and is NEVER committed (data/video/ is
+  # git-ignored); only derived tables and plots are.
+  path: "data/video/2022 World Cup.mp4"
+  model: yolo11s.pt        # COCO-pretrained, downloaded automatically by Ultralytics
+  imgsz: 1280
+  conf: 0.15               # low on purpose: the tracker uses weak boxes to keep tracks alive
+  cut_threshold: 0.35
+  static_regions: [[60, 35, 505, 70], [1100, 0, 1280, 65]]   # score bug + logo: do not move with the camera
+  mapped_shot:             # the one shot we map to the pitch
+    start: 1521
+    end: 1722              # a hidden cut at frame 1722 (wide -> tight camera) ends this shot
+    reference_frame: 1600
+    min_alignment: 3.0     # frames below this alignment score are NOT mapped (see homography.py)
+    # Landmarks picked by hand on the reference frame: pixel (x, y) <-> pitch (X, Y) in metres.
+    # X = distance from the visible goal line, Y = distance from the near touchline.
+    landmarks:
+      - {name: near goalpost base,            pixel: [119, 475],  pitch: [0.0, 30.34]}
+      - {name: far goalpost base,             pixel: [280, 436],  pitch: [0.0, 37.66]}
+      - {name: 6-yd box near front corner,    pixel: [161, 527],  pitch: [5.5, 24.84]}
+      - {name: 6-yd box far front corner,     pixel: [533, 422],  pitch: [5.5, 43.16]}
+      - {name: 6-yd box far goal-line corner, pixel: [383, 410],  pitch: [0.0, 43.16]}
+      - {name: penalty area near front corner, pixel: [280, 666], pitch: [16.5, 13.84]}
+      - {name: penalty area far front corner,  pixel: [1005, 395], pitch: [16.5, 54.16]}
+      - {name: penalty area far goal-line corner, pixel: [560, 366], pitch: [0.0, 54.16]}
+
+pitch:
+  statsbomb_length: 120
+  statsbomb_width: 80
+  metrica_length_m: 105
+  metrica_width_m: 68

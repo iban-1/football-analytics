@@ -1,0 +1,20 @@
+{
+  "dataset": {
+    "matches": 262,
+    "events": 943374,
+    "all_shots": 6619,
+    "excluded_penalties": 91,
+    "excluded_shootout_kicks": 181,
+    "modelled_shots": 6347,
+    "model_goals": 570,
+    "model_goal_rate": 0.0898,
+    "model_matches": 262
+  },
+  "xg": {
+    "best_model": "logreg_all",
+    "best_log_loss": 0.258,
+    "statsbomb_log_loss": 0.2444,
+    "logreg_all_freeze_frame_log_loss": 0.2524,
+    "statsbomb_better_in_folds": 5
+  }
+}

@@ -1,0 +1,3 @@
+under_pressure,shots,goals,mean_pred,goal_rate,mean_log_loss,bias,share_of_total_loss
+0,4854,462,0.0948,0.0952,0.2641,-0.0004,0.7829
+1,1493,108,0.0727,0.0723,0.238,0.0004,0.2171

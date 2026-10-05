@@ -1,0 +1,35 @@
+player,team,passes,passes_completed,progressive_passes,key_passes,shots,goals,xg,goals_minus_xg
+Lionel Andrés Messi Cuccittini,Argentina,60,49,15,2,5,2,1.629,0.371
+Kylian Mbappé Lottin,France,27,19,3,0,6,3,1.583,1.417
+Lautaro Javier Martínez,Argentina,7,5,0,0,4,0,0.795,-0.795
+Ángel Fabián Di María Hernández,Argentina,29,25,3,4,2,1,0.303,0.697
+Randal Kolo Muani,France,15,11,1,0,2,0,0.146,-0.146
+Rodrigo Javier De Paul,Argentina,68,57,5,1,2,0,0.115,-0.115
+Enzo Fernandez,Argentina,94,79,16,1,2,0,0.102,-0.102
+Alexis Mac Allister,Argentina,52,45,7,1,3,0,0.086,-0.086
+Julián Álvarez,Argentina,32,26,1,1,1,0,0.078,-0.078
+Adrien Rabiot,France,51,43,5,0,1,0,0.058,-0.058
+Gonzalo Ariel Montiel,Argentina,13,8,3,2,1,0,0.046,-0.046
+Youssouf Fofana,France,11,9,0,0,1,0,0.026,-0.026
+Dayotchanculle Upamecano,France,64,51,9,0,0,0,0.0,0.0
+Eduardo Camavinga,France,24,21,6,1,0,0,0.0,0.0
+Germán Alejandro Pezzella,Argentina,1,1,0,0,0,0,0.0,0.0
+Antoine Griezmann,France,30,21,1,1,0,0,0.0,0.0
+Cristian Gabriel Romero,Argentina,71,60,24,0,0,0,0.0,0.0
+Aurélien Djani Tchouaméni,France,69,56,8,0,0,0,0.0,0.0
+Kingsley Coman,France,15,5,0,0,0,0,0.0,0.0
+Hugo Lloris,France,41,23,17,0,0,0,0.0,0.0
+Ibrahima Konaté,France,2,1,1,1,0,0,0.0,0.0
+Jules Koundé,France,67,52,15,0,0,0,0.0,0.0
+Damián Emiliano Martínez,Argentina,33,18,7,0,0,0,0.0,0.0
+Leandro Daniel Paredes,Argentina,15,15,5,0,0,0,0.0,0.0
+Marcos Javier Acuña,Argentina,28,19,6,2,0,0,0.0,0.0
+Marcus Thuram,France,22,15,2,1,0,0,0.0,0.0
+Olivier Giroud,France,9,5,0,0,0,0,0.0,0.0
+Nicolás Hernán Otamendi,Argentina,75,69,9,0,0,0,0.0,0.0
+Nicolás Alejandro Tagliafico,Argentina,56,44,12,1,0,0,0.0,0.0
+Nahuel Molina Lucero,Argentina,56,39,14,0,0,0,0.0,0.0
+Raphaël Varane,France,61,55,12,0,0,0,0.0,0.0
+Paulo Bruno Exequiel Dybala,Argentina,3,1,0,0,0,0,0.0,0.0
+Ousmane Dembélé,France,13,9,1,0,0,0,0.0,0.0
+Theo Bernard François Hernández,France,49,38,8,0,0,0,0.0,0.0

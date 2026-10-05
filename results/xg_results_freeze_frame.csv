@@ -1,0 +1,4 @@
+model,features,log_loss,brier,roc_auc,ece
+logreg_all,base+freeze_frame,0.2524 +/- 0.0228,0.0706 +/- 0.0073,0.7872 +/- 0.0269,0.0209 +/- 0.0051
+lightgbm,base+freeze_frame,0.2538 +/- 0.0208,0.0710 +/- 0.0065,0.7844 +/- 0.0301,0.0223 +/- 0.0028
+mlp,base+freeze_frame,0.2569 +/- 0.0231,0.0718 +/- 0.0073,0.7817 +/- 0.0300,0.0205 +/- 0.0051

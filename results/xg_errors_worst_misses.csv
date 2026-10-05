@@ -1,0 +1,11 @@
+,match_id,team,player,x,y,distance,body_part,shot_type,pred,sb_xg,is_goal,loss
+5220,3939969,Argentina,Nicolás Hernán Otamendi,116.3,39.9,3.701,Foot,Open Play,0.899,0.485,0,2.292
+201,7535,Serbia,Filip Kostić,118.0,42.0,2.828,Foot,Open Play,0.874,0.895,0,2.068
+389,7543,Spain,Gerard Piqué Bernabéu,118.0,39.0,2.236,Foot,Open Play,0.858,0.693,0,1.952
+5420,3939977,Argentina,Giovani Lo Celso,118.1,41.4,2.36,Foot,Open Play,0.809,0.487,0,1.655
+3073,3857261,England,Phil Foden,116.1,39.5,3.932,Foot,Open Play,0.792,0.61,0,1.569
+1055,7570,Belgium,Michy Batshuayi Tunga,117.0,40.0,3.0,Foot,Open Play,0.785,0.257,0,1.538
+4361,3930160,Croatia,Andrej Kramarić,118.4,40.0,1.6,Head,Open Play,0.766,0.71,0,1.454
+184,7534,Germany,Mario Gómez García,117.0,39.0,3.162,Foot,Open Play,0.756,0.554,0,1.409
+495,7548,Brazil,Neymar da Silva Santos Junior,117.0,39.0,3.162,Foot,Open Play,0.729,0.495,0,1.304
+2932,3857256,Switzerland,Breel-Donald Embolo,116.1,39.3,3.962,Foot,Open Play,0.7,0.665,0,1.203

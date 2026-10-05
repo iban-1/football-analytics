@@ -1,0 +1,9 @@
+track_id,team,frames,seconds,distance_m,mean_speed_ms,max_speed_ms,implausible_speed
+1,other,52,2.1,8.9,4.26,6.81,False
+2,light,200,8.0,48.9,6.12,12.49,True
+4,dark,201,8.0,31.2,3.88,6.38,False
+5,dark,137,5.5,38.3,6.99,9.83,False
+8,other,124,5.0,12.7,2.57,11.34,False
+10,dark,184,7.4,32.8,4.46,8.93,False
+147,light,121,4.8,17.6,3.63,8.33,False
+266,other,51,2.0,2.9,1.43,3.18,False

@@ -1,0 +1,175 @@
+{
+  "seed": 42,
+  "outer_cv": "GroupKFold(5) by match_id",
+  "inner_cv": "GroupKFold(3) by match_id, scoring=neg_log_loss",
+  "grids": {
+    "constant_rate": {},
+    "logreg_distance": {},
+    "logreg_all": {
+      "clf__C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ]
+    },
+    "lightgbm": {
+      "clf__num_leaves": [
+        4,
+        8,
+        16
+      ],
+      "clf__n_estimators": [
+        100,
+        250
+      ],
+      "clf__min_child_samples": [
+        20,
+        60
+      ]
+    },
+    "mlp": {
+      "clf__hidden_layer_sizes": [
+        [
+          16
+        ],
+        [
+          32,
+          16
+        ]
+      ],
+      "clf__alpha": [
+        0.001,
+        0.01,
+        0.1
+      ]
+    }
+  },
+  "chosen_params_per_outer_fold": {
+    "constant_rate": [
+      {
+        "fold": 0
+      },
+      {
+        "fold": 1
+      },
+      {
+        "fold": 2
+      },
+      {
+        "fold": 3
+      },
+      {
+        "fold": 4
+      }
+    ],
+    "logreg_distance": [
+      {
+        "fold": 0
+      },
+      {
+        "fold": 1
+      },
+      {
+        "fold": 2
+      },
+      {
+        "fold": 3
+      },
+      {
+        "fold": 4
+      }
+    ],
+    "logreg_all": [
+      {
+        "fold": 0,
+        "clf__C": 0.1
+      },
+      {
+        "fold": 1,
+        "clf__C": 0.1
+      },
+      {
+        "fold": 2,
+        "clf__C": 0.1
+      },
+      {
+        "fold": 3,
+        "clf__C": 0.1
+      },
+      {
+        "fold": 4,
+        "clf__C": 0.1
+      }
+    ],
+    "lightgbm": [
+      {
+        "fold": 0,
+        "clf__min_child_samples": 60,
+        "clf__n_estimators": 100,
+        "clf__num_leaves": 8
+      },
+      {
+        "fold": 1,
+        "clf__min_child_samples": 60,
+        "clf__n_estimators": 250,
+        "clf__num_leaves": 4
+      },
+      {
+        "fold": 2,
+        "clf__min_child_samples": 60,
+        "clf__n_estimators": 250,
+        "clf__num_leaves": 4
+      },
+      {
+        "fold": 3,
+        "clf__min_child_samples": 60,
+        "clf__n_estimators": 100,
+        "clf__num_leaves": 8
+      },
+      {
+        "fold": 4,
+        "clf__min_child_samples": 20,
+        "clf__n_estimators": 250,
+        "clf__num_leaves": 4
+      }
+    ],
+    "mlp": [
+      {
+        "fold": 0,
+        "clf__alpha": 0.1,
+        "clf__hidden_layer_sizes": [
+          16
+        ]
+      },
+      {
+        "fold": 1,
+        "clf__alpha": 0.1,
+        "clf__hidden_layer_sizes": [
+          16
+        ]
+      },
+      {
+        "fold": 2,
+        "clf__alpha": 0.1,
+        "clf__hidden_layer_sizes": [
+          16
+        ]
+      },
+      {
+        "fold": 3,
+        "clf__alpha": 0.1,
+        "clf__hidden_layer_sizes": [
+          16
+        ]
+      },
+      {
+        "fold": 4,
+        "clf__alpha": 0.1,
+        "clf__hidden_layer_sizes": [
+          16
+        ]
+      }
+    ]
+  }
+}

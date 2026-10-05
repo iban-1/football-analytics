@@ -1,0 +1,4 @@
+body_part,shots,goals,mean_pred,goal_rate,mean_log_loss,bias,share_of_total_loss
+Foot,5152,447,0.0855,0.0868,0.2492,-0.0012,0.7841
+Head,1152,118,0.1039,0.1024,0.2975,0.0015,0.2093
+Other,43,5,0.1917,0.1163,0.2506,0.0754,0.0066

@@ -1,0 +1,33 @@
+# Raw/derived data (re-created by scripts/download_data.py)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environments, caches, secrets
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.key
+secrets.toml
+
+# Run logs written while developing
+results/*_log.txt
+results/*_err.txt
+results/run_log.txt
+
+# Large outputs
+*.mp4
+*.avi
+
+# Phase 7: the user's video clip, model weights and generated videos are never committed
+data/video/*
+!data/video/.gitkeep
+*.pt
+results/phase7/_*
+
+# Editor/tool configuration
+.claude/

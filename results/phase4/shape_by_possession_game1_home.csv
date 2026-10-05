@@ -1,0 +1,4 @@
+state,centroid_x_mean,centroid_x_std,centroid_x_count,length_mean,length_std,length_count,width_mean,width_std,width_count,hull_area_mean,hull_area_std,hull_area_count
+in possession,53.86,17.15,13521,34.04,7.73,13521,45.02,10.56,13521,1046.76,347.11,13521
+out of possession,43.62,15.38,10137,30.51,8.4,10137,37.83,8.29,10137,804.86,284.1,10137
+unknown/dead ball,53.62,25.05,5344,34.72,9.61,5344,39.16,10.28,5344,917.69,408.62,5344

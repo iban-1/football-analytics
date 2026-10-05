@@ -1,0 +1,69 @@
+team,period,window_start_min,state,frames,k,formation,silhouette,sil_k3
+home,1,0,in possession,3907,3,2-4-4,0.623,0.623
+home,1,0,out of possession,2690,3,4-4-2,0.558,0.558
+home,1,5,in possession,4721,3,4-2-4,0.614,0.614
+home,1,5,out of possession,1226,3,3-3-4,0.579,0.579
+home,1,10,in possession,2182,3,3-4-3,0.598,0.598
+home,1,10,out of possession,4117,3,4-4-2,0.762,0.762
+home,1,15,in possession,3847,3,3-3-4,0.7,0.7
+home,1,15,out of possession,2542,3,4-4-2,0.91,0.91
+home,1,20,in possession,3942,3,5-4-1,0.558,0.558
+home,1,20,out of possession,2478,3,4-4-2,0.747,0.747
+home,1,25,in possession,2088,3,3-3-4,0.526,0.526
+home,1,25,out of possession,2809,3,4-4-2,0.884,0.884
+home,1,30,in possession,3335,3,5-3-2,0.556,0.556
+home,1,30,out of possession,3050,3,4-4-2,0.791,0.791
+home,1,35,in possession,3329,3,3-4-3,0.508,0.508
+home,1,35,out of possession,3644,3,3-5-2,0.637,0.637
+home,1,40,in possession,3150,3,4-4-2,0.542,0.542
+home,1,40,out of possession,4162,3,3-5-2,0.592,0.592
+home,2,0,in possession,3316,3,2-4-4,0.593,0.593
+home,2,0,out of possession,2788,3,4-4-2,0.777,0.777
+home,2,5,in possession,3580,3,3-4-3,0.671,0.671
+home,2,5,out of possession,1833,3,4-4-2,0.804,0.804
+home,2,10,in possession,2677,3,3-5-2,0.709,0.709
+home,2,10,out of possession,4084,3,4-4-2,0.588,0.588
+home,2,20,in possession,1999,3,2-4-4,0.596,0.596
+home,2,20,out of possession,3178,3,4-4-2,0.816,0.816
+home,2,25,in possession,3320,3,2-5-3,0.55,0.55
+home,2,30,in possession,4448,3,3-5-2,0.554,0.554
+home,2,30,out of possession,3052,3,5-2-3,0.539,0.539
+home,2,40,in possession,2340,3,2-2-6,0.644,0.644
+home,2,40,out of possession,4981,3,4-5-1,0.611,0.611
+home,2,45,in possession,3081,3,1-5-4,0.57,0.57
+home,2,45,out of possession,1742,3,5-4-1,0.574,0.574
+away,1,0,in possession,2690,3,2-4-4,0.706,0.706
+away,1,0,out of possession,3907,3,4-4-2,0.682,0.682
+away,1,5,in possession,1226,3,2-4-4,0.639,0.639
+away,1,5,out of possession,4721,3,4-4-2,0.734,0.734
+away,1,10,in possession,4117,3,3-3-4,0.641,0.641
+away,1,10,out of possession,2182,3,4-4-2,0.739,0.739
+away,1,15,in possession,2542,3,2-4-4,0.818,0.818
+away,1,15,out of possession,3847,3,4-4-2,0.712,0.712
+away,1,20,in possession,2478,3,2-4-4,0.789,0.789
+away,1,20,out of possession,3942,3,4-4-2,0.647,0.647
+away,1,25,in possession,2809,3,2-4-4,0.792,0.792
+away,1,25,out of possession,2088,3,4-3-3,0.574,0.574
+away,1,30,in possession,3050,3,3-4-3,0.54,0.54
+away,1,30,out of possession,3335,3,5-3-2,0.714,0.714
+away,1,35,in possession,3644,3,2-4-4,0.657,0.657
+away,1,35,out of possession,3329,3,4-4-2,0.68,0.68
+away,1,40,in possession,4162,3,4-2-4,0.63,0.63
+away,1,40,out of possession,3150,3,4-4-2,0.667,0.667
+away,2,0,in possession,2788,3,2-4-4,0.784,0.784
+away,2,0,out of possession,3316,3,4-4-2,0.706,0.706
+away,2,5,in possession,1833,3,2-4-4,0.691,0.691
+away,2,5,out of possession,3580,3,4-4-2,0.758,0.758
+away,2,15,out of possession,4056,3,4-4-2,0.869,0.869
+away,2,20,in possession,3178,3,2-5-3,0.75,0.75
+away,2,20,out of possession,1999,3,3-5-2,0.616,0.616
+away,2,25,in possession,2896,3,2-4-4,0.704,0.704
+away,2,25,out of possession,3320,3,5-3-2,0.799,0.799
+away,2,30,in possession,3052,3,1-2-7,0.555,0.555
+away,2,30,out of possession,4448,3,3-5-2,0.6,0.6
+away,2,35,in possession,2139,3,2-4-4,0.805,0.805
+away,2,35,out of possession,4980,3,4-4-2,0.599,0.599
+away,2,40,in possession,4981,3,2-4-4,0.734,0.734
+away,2,40,out of possession,2340,3,4-4-2,0.673,0.673
+away,2,45,in possession,1742,3,3-4-3,0.566,0.566
+away,2,45,out of possession,3081,3,3-4-3,0.624,0.624

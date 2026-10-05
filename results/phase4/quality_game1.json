@@ -1,0 +1,46 @@
+{
+ "frames": 145006,
+ "duration_min": 96.67,
+ "fps": 25.0,
+ "frame_gaps": 0,
+ "home": {
+  "squad_columns": 14,
+  "max_players_on_pitch": 12,
+  "frames_with_fewer_than_11": 0,
+  "nan_share_squad_cells": 0.2143,
+  "share_positions_outside_pitch": 0.01154,
+  "ball_nan_frames": 56755,
+  "frozen_player_rows": 3,
+  "raw_speed_over_12ms": 236,
+  "raw_speed_max_ms": 2281.61,
+  "raw_speed_over_12ms_after_despike": 0
+ },
+ "away": {
+  "squad_columns": 14,
+  "max_players_on_pitch": 12,
+  "frames_with_fewer_than_11": 0,
+  "nan_share_squad_cells": 0.2143,
+  "share_positions_outside_pitch": 0.00754,
+  "ball_nan_frames": 56755,
+  "frozen_player_rows": 2,
+  "raw_speed_over_12ms": 220,
+  "raw_speed_max_ms": 2241.32,
+  "raw_speed_over_12ms_after_despike": 0
+ },
+ "periods_flipped_to_make_home_attack_right": [
+  2
+ ],
+ "ball_columns_identical_in_both_files": true,
+ "despike": {
+  "home": {
+   "glitch_points_flagged": 12,
+   "impossible_step_points_blanked": 264,
+   "points_left_missing_after_repair_attempts": 158
+  },
+  "away": {
+   "glitch_points_flagged": 13,
+   "impossible_step_points_blanked": 240,
+   "points_left_missing_after_repair_attempts": 104
+  }
+ }
+}

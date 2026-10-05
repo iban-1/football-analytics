@@ -1,0 +1,24 @@
+feature,mean_abs_shap
+distance,0.5453
+angle,0.3628
+under_pressure,0.1719
+play_pattern_From Corner,0.1435
+body_part_Foot,0.1405
+score_diff,0.1065
+follows_through_ball,0.0653
+minute,0.0484
+body_part_Head,0.0478
+follows_cross,0.0395
+play_pattern_Regular Play,0.0295
+play_pattern_From Counter,0.023
+first_time,0.0222
+play_pattern_From Throw In,0.0214
+play_pattern_From Free Kick,0.0193
+play_pattern_From Keeper,0.0106
+shot_type_Open Play,0.0096
+shot_type_Free Kick,0.0092
+body_part_Other,0.0041
+play_pattern_From Kick Off,0.003
+play_pattern_From Goal Kick,0.0019
+play_pattern_Other,0.0001
+shot_type_Other,0.0

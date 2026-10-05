@@ -1,0 +1,4 @@
+shot_type,shots,goals,mean_pred,goal_rate,mean_log_loss,bias,share_of_total_loss
+Free Kick,244,10,0.0352,0.041,0.1714,-0.0057,0.0256
+Open Play,6097,560,0.0918,0.0918,0.2617,-0.0,0.9744
+Other,6,0,0.0055,0.0,0.0055,0.0055,0.0

@@ -1,0 +1,11 @@
+,match_id,team,player,x,y,distance,body_part,shot_type,pred,sb_xg,is_goal,loss
+1797,3788748,Czech Republic,Patrik Schick,63.4,25.3,58.478,Foot,Open Play,0.002,0.009,1,6.319
+6083,3942229,Venezuela,José Salomón Rondón Giménez,71.0,33.7,49.403,Foot,Open Play,0.007,0.019,1,4.946
+1352,7584,Belgium,Jan Vertonghen,116.0,23.0,17.464,Head,Open Play,0.008,0.011,1,4.866
+3393,3857276,Morocco,Hakim Ziyech,83.9,45.0,36.445,Foot,Open Play,0.011,0.024,1,4.49
+4414,3930162,Slovenia,Erik Janža,98.1,22.6,27.971,Foot,Open Play,0.014,0.013,1,4.275
+3279,3857270,Portugal,Bruno Miguel Borges Fernandes,99.4,14.6,32.704,Foot,Open Play,0.015,0.008,1,4.213
+124,7533,Brazil,Philippe Coutinho Correia,99.0,21.0,28.32,Foot,Open Play,0.016,0.011,1,4.105
+198,7535,Serbia,Aleksandar Kolarov,94.0,59.0,32.202,Foot,Free Kick,0.019,0.009,1,3.985
+1211,7580,Argentina,Ángel Fabián Di María Hernández,90.0,38.0,30.067,Foot,Open Play,0.019,0.024,1,3.978
+5552,3939983,Paraguay,Omar Federico Alderete Fernández,92.9,47.3,28.066,Foot,Open Play,0.019,0.023,1,3.97
